@@ -1,38 +1,58 @@
-div.result, p.result {
-    padding: 20px;
-    border: 1px solid #d4dada;
-    border-radius: 3px;
-}
 input {
-    height: 38px;
-    padding: 6px 10px;
-    background-color: #fff;
-    border: 1px solid #d4dada;
-    border-radius: 3px;
-    box-shadow: none;
-    vertical-align: bottom;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #d4dada;
+  border-radius: 3px;
+  box-shadow: none;
+  vertical-align: bottom;
 }
-input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    width: 100%;
+input:focus {
+    border: 1px solid #FFFF66;
+}
+button, input, optgroup, select, textarea {
+  font: inherit;
+  margin: 0;
+}
+button, hr, input {
+  overflow: visible;
+}
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+body, i.fa {
+  line-height: 1.7;
+}
+body, html {
+  font-family: sans-serif;
+  font-weight: 300;
+  color: #535054;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
 }
 .common-Button {
-    white-space: nowrap;
-    display: inline-block;
-    height: 40px;
-    line-height: 40px;
-    padding: 0 14px;
-    box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
-    background: #fff;
-    border-radius: 4px;
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: .025em;
-    color: #6772e5;
-    text-decoration: none;
-    transition: all .15s ease;
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+  background: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: .025em;
+  color: #6772e5;
+  font-family: sans-serif;
+  text-decoration: none;
+  transition: all .15s ease;
 }
 .common-Button:hover {
   position: relative;
@@ -49,17 +69,20 @@ span {
   font-size: 84px;
 }
 .blue {
-  color: blue;
+  color: #56b6c2;
 }
 .green {
-  color: green;
+  color: #98c379;
 }
 .yellow {
-  color: yellow;
+  color: #c6ad00;
 }
 .red {
-  color: red;
+  color: #c62d48;
 }
-.blue:hover, .green:hover, .yellow:hover, .red:hover {
+.purple {
+  color: #b400b9;
+}
+.blue:hover, .green:hover, .yellow:hover, .purple:hover, .red:hover {
   color: grey;
 }

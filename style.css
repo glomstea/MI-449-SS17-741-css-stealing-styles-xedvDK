@@ -12,7 +12,7 @@ input {
   vertical-align: bottom;
 }
 input:focus {
-    border: 1px solid #FFFF66;
+    border: 1px solid #07682c;
 }
 button, input, optgroup, select, textarea {
   font: inherit;
@@ -49,18 +49,21 @@ html {
   font-size: 15px;
   font-weight: 600;
   letter-spacing: .025em;
-  color: #6772e5;
+  color: #7795F8;
   font-family: sans-serif;
   text-decoration: none;
   transition: all .15s ease;
 }
 .common-Button:hover {
   position: relative;
-  top: -1px;
+  transform: translateY(-1px);
 }
 .common-Button:active {
   position: relative;
-  top: +1px;
+  transform: translateY(1px);
+  background-color: #f6f9fc;
+  transform: translateY(1px);
+  box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
 }
 main {
   width: 900px;
